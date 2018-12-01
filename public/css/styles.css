@@ -254,3 +254,14 @@ Waypoints
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+
+#schedule h2 {
+	color: #EDEDED;
+	text-transform: none;
+}
+
+#schedule h2::after {
+	content: " ";
+	border: none;
+	display: block;
+}

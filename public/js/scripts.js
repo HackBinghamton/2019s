@@ -70,6 +70,7 @@ $('#submit').click(function() {
 			data: {'value1': email},
 			error: function() {
 				$('#email').val('');
+		        window.alert("Thank you! Your email " + email + " has been added to our mailing list.")
 			}
 		});
 	}
