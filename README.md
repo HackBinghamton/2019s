@@ -1,1 +1,2 @@
-# HackBU 2019 Hackathon page
+# 2018s
+HackBU 2018s hackathon registration website
