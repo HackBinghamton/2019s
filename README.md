@@ -1,2 +1,2 @@
-# 2018s
-HackBU 2018s hackathon registration website
+# 2019s
+HackBU 2019s hackathon registration website
