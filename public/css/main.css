@@ -42,6 +42,31 @@ p {
 	color: #FFFFFF;
 }
 
+.card {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-img {
+	box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.2);
+	height: 15em;
+	width: 15em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-img img {
+	width: 90%;
+}
+
+.card-text {
+	color: #333;
+	text-align: center;
+}
+
 .register-btn { 
 	display: inline-block; 
 	padding: 25px 40px; 
@@ -51,6 +76,7 @@ p {
 	font-weight: bold; 
 	letter-spacing: 1px; 
 }
+
 .register-btn:hover, .register-btn:focus { 
 	color: #40B29F; 
 	border: solid 1px #40B29F; 
@@ -101,7 +127,7 @@ p {
 	margin-top: 0;
 }
 
-.sponsors__tier__row {
+.flex_row {
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -159,6 +185,6 @@ p {
 	max-height: 2.5em;
 }
 
-.faq {
+.darker {
 	background: #EDEDED;
 }
